@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
     <style>
         body {
-                @apply bg-gradient-to-br from-[#233232] via-[#4B0082] to-[#556B2F] min-h-screen text-white overflow-x-hidden;
+                @apply bg-gradient-to-br from-[#2F4F4F] via-[#4B0082] to-[#556B2F] min-h-screen text-white overflow-x-hidden;
             }
 
             .gradient-text {
@@ -414,7 +414,7 @@
 </head>
 <body>
     <div class="gradient-bg">
-        <header class="fixed top-0 w-full p-4 bg-[#233232] border-b border-[#FFD700] z-50 transition-all duration-300" id="header">
+        <header class="fixed top-0 w-full p-4 bg-[#36441e] border-b border-[#FFD700] z-50 transition-all duration-300" id="header">
             <nav class="flex justify-between items-center max-w-screen-xl mx-auto">
                 <div class="flex items-center gap-3 text-white font-bold text-2xl">
                     <div class="logo-icon w-10 h-10 bg-gradient-to-br from-[#4B0082] to-[#556B2F] rounded-full flex items-center justify-center">🔫</div>
@@ -453,37 +453,37 @@
 
         <section class="features py-20 px-8 bg-[#2D004D]">
             <div class="features-container max-w-screen-xl mx-auto text-center">
-                <h2 class="text-4xl text-white mb-12 font-bold">Mengapa Bergabung dengan Resimen Mahasiswa?</h2>
+                <h2 class="text-4xl text-white mb-12 font-bold">Mengapa Memilih Platform Kami?</h2>
                 <div class="features-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
                         <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🤖</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Kepemimpinan Tangguh</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa membentuk karakter pemimpin yang disiplin, tangguh, dan siap menghadapi tantangan di masa depan.</p>
+                        <h3 class="text-2xl text-white mb-4 font-semibold">Rekomendasi Cerdas</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Algoritma AI canggih yang menganalisis profil, minat, dan keahlian Anda untuk memberikan rekomendasi magang yang paling sesuai.</p>
                     </div>
                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
                         <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🏢</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Wawasan Bela Negera</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Mengikuti pendidikan dan pelatihan semi-militer untuk meningkatkan semangat cinta tanah air dan tanggung jawab kebangsaan.</p>
+                        <h3 class="text-2xl text-white mb-4 font-semibold">Partner Terpercaya</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Bermitra dengan perusahaan-perusahaan terkemuka yang menawarkan program magang berkualitas tinggi.</p>
                     </div>
                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
                         <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📊</div>
-                         <h3 class="text-2xl text-white mb-4 font-semibold">Disiplin dan Etika</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Anggota Menwa dibentuk melalui pola hidup disiplin, tertib, dan beretika tinggi sebagai panutan mahasiswa lainnya.</p>
+                         <h3 class="text-2xl text-white mb-4 font-semibold">Analisis Komprehensif</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Dapatkan wawasan mendalam tentang tren industri, persyaratan keahlian, dan peluang karir di bidang pilihan Anda.</p>
                     </div>   
                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
                         <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🎯</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Pengembangan Diri</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa menyediakan ruang untuk mengasah fisik, mental, dan spiritual melalui pelatihan dan kegiatan kemahasiswaan.</p>
+                        <h3 class="text-2xl text-white mb-4 font-semibold">Matching Akurat</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Sistem pencocokan canggih yang mempertimbangkan lokasi, jadwal, dan preferensi pribadi Anda.</p>
                     </div>
                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
                         <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Pelatihan Lapangan</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa memberikan pengalaman langsung di alam terbuka, dari baris-berbaris, survival, hingga manuver lapangan yang melatih fisik dan ketangguhan mental.</p>
+                        <h3 class="text-2xl text-white mb-4 font-semibold">Interface Modern</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Antarmuka yang intuitif dan responsif, memudahkan Anda mengakses platform dari berbagai perangkat.</p>
                     </div>
-                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Aksi Sosial dan Kemanusiaan</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Terlibat aktif dalam kegiatan sosial, pengamanan kampus, hingga bantuan bencana dan kedaruratan.</p>
+                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🚀</div>
+                        <h3 class="text-2xl text-white mb-4 font-semibold">Dukungan Karir</h3>
+                        <p class="text-white text-opacity-80 leading-relaxed">Bimbingan dan dukungan penuh dari tim ahli untuk memaksimalkan pengalaman magang Anda.</p>
                     </div>
                 </div>
             </div>
@@ -510,7 +510,7 @@
             </div>
         </section>
 
-        <footer class="footer py-5 px-8 bg-[#233232] text-center text-white border-t border-[#36441E]">
+        <footer class="footer py-5 px-8 bg-[#36441E] text-center text-white border-t border-[#36441E]">
             <div class="footer-content max-w-screen-xl mx-auto">
                 <div class="footer-info flex justify-center items-center gap-8 mb-8 flex-wrap">
                     <div class="contact-item flex items-center gap-2 opacity-80">
