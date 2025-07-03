@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -124,4 +124,16 @@
     </div>
 </body>
 </html>
-                        
+                         --}}
+
+@extends('layouts.main')
+
+@section('judul')
+    Beranda
+@endsection
+
+@section('content')
+<x-header title="Satmenwa 874"/>
+<p> ini adalah index</p>
+@endsection
+
