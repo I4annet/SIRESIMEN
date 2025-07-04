@@ -1,30 +1,4 @@
-{{-- <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satmenwa 874 - Politeknik Negeri Malang</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
-</head>
-<body>
-    <div class="gradient-bg">
-        <header class="fixed top-0 w-full p-4 bg-[#233232] border-b border-[#FFD700] z-50 transition-all duration-300" id="header">
-            <nav class="flex justify-between items-center max-w-screen-xl mx-auto">
-                <div class="flex items-center gap-3 text-white font-bold text-2xl">
-                    <img src="{{ asset('images/profil.png') }}" alt="Logo Satmenwa874" class="w-10 h-10 object-cover">
-                    <span class="text-white font-bold text-2xl">Satmenwa 874</span>
-                </div>
-                <ul class="nav-links hidden md:flex gap-8 list-none">
-                    <li><a href="{{ url('/')}}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Beranda</a></li>
-                    <li><a href="{{ url('/tentang')}}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Tentang</a></li>
-                    <li><a href="{{ url ('/kegiatan')}}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Kegiatan</a></li>
-                    <li><a href="#kontak" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Kontak</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section class="relative flex items-center justify-center min-h-screen pt-24 pb-8 text-center bg-[#2d004d]" id="beranda">
+ <section class="relative flex items-center justify-center min-h-screen pt-24 pb-8 text-center bg-[#2d004d]" id="beranda">
             <div class="floating-elements absolute inset-0 overflow-hidden pointer-events-none">
                 <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-20 h-20 top-1/5 left-1/10"></div>
                 <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-32 h-32 top-3/5 right-1/8"></div>
@@ -104,36 +78,3 @@
                 </div>
             </div>
         </section>
-
-        <footer class="footer py-5 px-8 bg-[#233232] text-center text-white border-t border-[#36441E]">
-            <div class="footer-content max-w-screen-xl mx-auto">
-                <div class="footer-info flex justify-center items-center gap-8 mb-8 flex-wrap">
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        🌐 <span>satmenwa874.ac.id</span>
-                    </div>
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        📞 <span>0341 - 404424/404425</span>
-                    </div>
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        📍 <span>Malang, Jawa Timur</span>
-                    </div>
-                </div>
-                <p>&copy; 2025 Satuan Resimen Mahasiswa 874. Semua hak dilindungi (Mungkin).</p>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
-                         --}}
-
-@extends('layouts.main')
-
-@section('judul')
-    Beranda
-@endsection
-
-@section('content')
-<x-header title="Satmenwa 874"/>
-<p> ini adalah index</p>
-@endsection
-
