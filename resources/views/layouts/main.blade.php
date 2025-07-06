@@ -30,11 +30,12 @@
     @auth
         @include('shared.navigation.sidebar')
     @endauth
-    <main class="pt-20">
+    <main class="pt-10">
         @yield('konten')
     </main>
     @stack('skrip')
     <div id="overlay" class="hidden fixed inset-0 z-40 lg:hidden"></div>
     @livewireScripts
+    @include('shared.navigation.footer')
 </body>
 </html>

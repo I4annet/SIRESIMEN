@@ -135,10 +135,8 @@
 @section('deskripsi')
 @endsection
 
-@section('content')
+@section('konten')
 <x-header title="Satmenwa 874"/>
-    @include('components.user.beranda')
-
-
+    @include('components.user.beranda.index')
 @endsection
 

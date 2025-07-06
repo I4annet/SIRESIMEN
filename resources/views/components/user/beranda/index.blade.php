@@ -1,80 +1,73 @@
- <section class="relative flex items-center justify-center min-h-screen pt-24 pb-8 text-center bg-[#2d004d]" id="beranda">
-            <div class="floating-elements absolute inset-0 overflow-hidden pointer-events-none">
-                <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-20 h-20 top-1/5 left-1/10"></div>
-                <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-32 h-32 top-3/5 right-1/8"></div>
-                <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-16 h-16 top-4/5 left-1/5"></div>
-                <div class="floating-element absolute bg-white bg-opacity-10 rounded-full w-24 h-24 top-2/6 right-3/10"></div>
-            </div>
+<section class="relative flex items-center justify-center min-h-screen pt-24 pb-8 text-center bg-[#2d004d]" id="beranda">
+    <div class="hero-content max-w-3xl text-white z-10 px-4">
+        <h1 class="text-5xl font-extrabold mb-6">Satuan Resimen Mahasiswa 874</h1>
+        <p class="hero-subtitle text-2xl mb-8 opacity-90">Politeknik Negeri Malang</p>
+        <p class="hero-description text-lg mb-12 opacity-80 leading-relaxed">
+            Jadilah bagian dari pasukan intelektual yang tangguh! <br>
+            Gabung dengan <strong>Resimen Mahasiswa 874 Polinema</strong> dan temukan pengalaman luar biasa dalam membentuk karakter, kepemimpinan, kedisiplinan, serta jiwa bela negara. <br>
+            Kamu tidak hanya belajar di kelas, tapi juga di lapangan — mengabdi untuk bangsa sambil membangun masa depanmu.
+        </p>
+        <div class="cta-buttons flex justify-center gap-6 flex-wrap">
+            <a href="#fitur" class="btn btn-secondary px-10 py-4 rounded-full text-xl font-semibold cursor-pointer transition-all duration-300 inline-block overflow-hidden relative bg-[#2D004Ds] bg-opacity-20 text-white border-2 border-[#FFD700] border-opacity-30 backdrop-blur-md hover:-translate-y-1 hover:shadow-xl">Pelajari Lebih Lanjut</a>
+        </div>
+    </div>
+</section>
 
-            <div class="hero-content max-w-3xl text-white z-10 px-4">
-                <h1 class="text-5xl font-extrabold mb-6">Satuan Resimen Mahasiswa 874</h1>
-                <p class="hero-subtitle text-2xl mb-8 opacity-90">Politeknik Negeri Malang</p>
-                <p class="hero-description text-lg mb-12 opacity-80 leading-relaxed">
-                    Jadilah bagian dari pasukan intelektual yang tangguh! <br>
-                    Gabung dengan <strong>Resimen Mahasiswa 874 Polinema</strong> dan temukan pengalaman luar biasa dalam membentuk karakter, kepemimpinan, kedisiplinan, serta jiwa bela negara. <br>
-                    Kamu tidak hanya belajar di kelas, tapi juga di lapangan — mengabdi untuk bangsa sambil membangun masa depanmu.
-                </p>
-                <div class="cta-buttons flex justify-center gap-6 flex-wrap">
-                    <a href="#fitur" class="btn btn-secondary px-10 py-4 rounded-full text-xl font-semibold cursor-pointer transition-all duration-300 inline-block overflow-hidden relative bg-white bg-opacity-20 text-white border-2 border-[#FFD700] border-opacity-30 backdrop-blur-md hover:-translate-y-1 hover:shadow-xl">Pelajari Lebih Lanjut</a>
-                </div>
+<section class="features py-20 px-8 bg-[#2D004D]">
+    <div class="features-container max-w-screen-xl mx-auto text-center">
+        <h2 class="text-4xl text-white mb-12 font-bold">Mengapa Bergabung dengan Resimen Mahasiswa?</h2>
+        <div class="features-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🤖</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Kepemimpinan Tangguh</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Menwa membentuk karakter pemimpin yang disiplin, tangguh, dan siap menghadapi tantangan di masa depan.</p>
             </div>
-        </section>
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🏢</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Wawasan Bela Negera</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Mengikuti pendidikan dan pelatihan semi-militer untuk meningkatkan semangat cinta tanah air dan tanggung jawab kebangsaan.</p>
+            </div>
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📊</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Disiplin dan Etika</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Anggota Menwa dibentuk melalui pola hidup disiplin, tertib, dan beretika tinggi sebagai panutan mahasiswa lainnya.</p>
+            </div>   
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🎯</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Pengembangan Diri</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Menwa menyediakan ruang untuk mengasah fisik, mental, dan spiritual melalui pelatihan dan kegiatan kemahasiswaan.</p>
+            </div>
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Pelatihan Lapangan</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Menwa memberikan pengalaman langsung di alam terbuka, dari baris-berbaris, survival, hingga manuver lapangan yang melatih fisik dan ketangguhan mental.</p>
+            </div>
+            <div class="feature-card bg-[#2D004D] bg-opacity-80 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
+                <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
+                <h3 class="text-2xl text-white mb-4 font-semibold">Aksi Sosial dan Kemanusiaan</h3>
+                <p class="text-white text-opacity-80 leading-relaxed">Terlibat aktif dalam kegiatan sosial, pengamanan kampus, hingga bantuan bencana dan kedaruratan.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <section class="features py-20 px-8 bg-[#2D004D]">
-            <div class="features-container max-w-screen-xl mx-auto text-center">
-                <h2 class="text-4xl text-white mb-12 font-bold">Mengapa Bergabung dengan Resimen Mahasiswa?</h2>
-                <div class="features-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
-                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🤖</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Kepemimpinan Tangguh</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa membentuk karakter pemimpin yang disiplin, tangguh, dan siap menghadapi tantangan di masa depan.</p>
-                    </div>
-                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🏢</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Wawasan Bela Negera</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Mengikuti pendidikan dan pelatihan semi-militer untuk meningkatkan semangat cinta tanah air dan tanggung jawab kebangsaan.</p>
-                    </div>
-                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-[#FFD700] border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#FFD700] to-[#4B0082] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📊</div>
-                         <h3 class="text-2xl text-white mb-4 font-semibold">Disiplin dan Etika</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Anggota Menwa dibentuk melalui pola hidup disiplin, tertib, dan beretika tinggi sebagai panutan mahasiswa lainnya.</p>
-                    </div>   
-                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">🎯</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Pengembangan Diri</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa menyediakan ruang untuk mengasah fisik, mental, dan spiritual melalui pelatihan dan kegiatan kemahasiswaan.</p>
-                    </div>
-                    <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Pelatihan Lapangan</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Menwa memberikan pengalaman langsung di alam terbuka, dari baris-berbaris, survival, hingga manuver lapangan yang melatih fisik dan ketangguhan mental.</p>
-                    </div>
-                     <div class="feature-card bg-white bg-opacity-10 backdrop-blur-xl rounded-3xl p-10 border border-white border-opacity-20 transition-all duration-300 relative overflow-hidden hover:-translate-y-2 hover:shadow-2xl hover:shadow-black/20">
-                        <div class="feature-icon w-20 h-20 bg-gradient-to-br from-[#f093fb] to-[#f5576c] rounded-full mx-auto mb-6 flex items-center justify-center text-4xl">📱</div>
-                        <h3 class="text-2xl text-white mb-4 font-semibold">Aksi Sosial dan Kemanusiaan</h3>
-                        <p class="text-white text-opacity-80 leading-relaxed">Terlibat aktif dalam kegiatan sosial, pengamanan kampus, hingga bantuan bencana dan kedaruratan.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="stats py-16 px-8 bg-gradient-to-r bg-[#2D004D]">
-            <div class="stats-container max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-                <div class="stat-item text-white">
-                    <div class="stat-number text-5xl font-extrabold mb-2">500+</div>
-                    <div class="stat-label text-lg opacity-90">Mahasiswa Terdaftar</div>
-                </div>
-                <div class="stat-item text-white">
-                    <div class="stat-number text-5xl font-extrabold mb-2">100+</div>
-                    <div class="stat-label text-lg opacity-90">Perusahaan Partner</div>
-                </div>
-                <div class="stat-item text-white">
-                    <div class="stat-number text-5xl font-extrabold mb-2">95%</div>
-                    <div class="stat-label text-lg opacity-90">Tingkat Keberhasilan</div>
-                </div>
-                <div class="stat-item text-white">
-                    <div class="stat-number text-5xl font-extrabold mb-2">4.8★</div>
-                    <div class="stat-label text-lg opacity-90">Rating Pengguna</div>
-                </div>
-            </div>
-        </section>
+<section class="stats py-20 px-8 bg-gradient-to-r bg-[#2D004D]">
+    <div class="stats-container max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+        <div class="stat-item text-white">
+            <div class="stat-number text-5xl font-extrabold mb-2">500+</div>
+            <div class="stat-label text-lg opacity-90">Mahasiswa Terdaftar</div>
+        </div>
+        <div class="stat-item text-white">
+            <div class="stat-number text-5xl font-extrabold mb-2">100+</div>
+            <div class="stat-label text-lg opacity-90">Perusahaan Partner</div>
+        </div>
+        <div class="stat-item text-white">
+            <div class="stat-number text-5xl font-extrabold mb-2">95%</div>
+            <div class="stat-label text-lg opacity-90">Tingkat Keberhasilan</div>
+        </div>
+        <div class="stat-item text-white">
+            <div class="stat-number text-5xl font-extrabold mb-2">4.8★</div>
+            <div class="stat-label text-lg opacity-90">Rating Pengguna</div>
+        </div>
+    </div>
+</section>
