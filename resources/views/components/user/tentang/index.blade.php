@@ -1,28 +1,3 @@
-{{-- <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satmenwa 874 - Politeknik Negeri Malang</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
-</head>
-<body>
-    <div class="gradient-bg">
-       <header class="fixed top-0 w-full p-4 bg-[#233232] border-b border-[#FFD700] z-50 transition-all duration-300" id="header">
-        <nav class="flex justify-between items-center max-w-screen-xl mx-auto">
-        <div class="flex items-center gap-3">
-            <img src="{{ asset('images/profil.png') }}" alt="Logo Satmenwa874" class="w-10 h-10 object-cover">
-            <span class="text-white font-bold text-2xl">Satmenwa 874</span>
-        </div>
-        <ul class="nav-links hidden md:flex gap-8 list-none">
-            <li><a href="{{ url('/') }}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Beranda</a></li>
-            <li><a href="{{ url('/tentang') }}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Tentang</a></li>
-            <li><a href="{{ url('/kegiatan') }}" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Kegiatan</a></li>
-            <li><a href="#kontak" class="text-white text-lg font-medium hover:-translate-y-0.5 relative">Kontak</a></li>
-        </ul>
-    </nav>
-</header>
 <section class="features py-20 px-8 bg-[#2D004D]">
     <div class="features-container max-w-screen-xl mx-auto text-center">
         <h2 class="text-white text-3xl font-bold mb-6">Resimen Mahasiswa Satuan 874 "Satria Cendekia Utama"</h2>
@@ -76,42 +51,3 @@
         </ul>
     </div>
 </section>
-
-
-        </section>
-        <footer class="footer py-5 px-8 bg-[#233232] text-center text-white border-t border-[#36441E]">
-            <div class="footer-content max-w-screen-xl mx-auto">
-                <div class="footer-info flex justify-center items-center gap-8 mb-8 flex-wrap">
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        🌐 <span>satmenwa874.ac.id</span>
-                    </div>
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        📞 <span>0341 - 404424/404425</span>
-                    </div>
-                    <div class="contact-item flex items-center gap-2 opacity-80">
-                        📍 <span>Malang, Jawa Timur</span>
-                    </div>
-                </div>
-                <p>&copy; 2025 Satuan Resimen Mahasiswa 874. Semua hak dilindungi (Mungkin).</p>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
-                         --}}
-
-
-@extends('layouts.main')
-
-@section('judul')
-    Tentang Satmenwa 874 - Politeknik Negeri Malang
-@endsection
-
-@section('deskripsi')
-@endsection
-
-@section('konten')
-    <x-header title="Tentang Satmenwa 874" subtitle="Mengenal Lebih Dekat Satuan Resimen Mahasiswa 874" />
-    @include('components.user.tentang.index')
-
-@endsection
